@@ -33,8 +33,9 @@ a:hover {
 	color: #000;
 }
 
-#title {
-	background: url(images/waxlimited.gif) center no-repeat;
+#gifsection {
+	background: url(../images/limited.gif) no-repeat center fixed;
+	height: 600px;
 }
 
 #mc-embed-signup {
