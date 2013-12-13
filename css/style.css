@@ -41,6 +41,10 @@ a:hover {
 	background-color: #3498db !important;
 }
 
+#mc-embed-signup:hover {
+	background-color: #2980b9 !important;
+}
+
 .container > header {
 	width: 90%;
 	max-width: 69em;
