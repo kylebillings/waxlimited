@@ -38,11 +38,7 @@ a:hover {
 }
 
 #mc-embedded-subscribe {
-	border: none;
-	padding: 5px 10px 5px 10px;
-	background-color: #3498db;
-	color:#fff;
-	font-size: 1em;
+	background-color: #3498db !important;
 }
 
 .container > header {
