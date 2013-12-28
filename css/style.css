@@ -157,6 +157,10 @@ a:hover {
 
 #video_background { position: absolute; bottom: 0px; right: 0px; min-width: 100%; min-height: 100%; width: auto; height: auto; z-index: -1000; overflow: hidden; }
 
+input[type="submit"].LR-sign-up-submit {
+	background-color: #c0392b;
+}
+
 .container > header nav a:hover:after {
 	color: #47a3da;
 }
