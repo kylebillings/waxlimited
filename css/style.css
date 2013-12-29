@@ -205,3 +205,14 @@ input[type="submit"].LR-sign-up-submit {
 		text-indent: 30px;
 	}
 }
+
+@media screen and (max-width: 42em) {
+
+	#video_background {
+		display: none;
+	}
+
+	body {
+		background-color: #333;
+	}
+}

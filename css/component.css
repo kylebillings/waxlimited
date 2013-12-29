@@ -130,5 +130,9 @@
 	.cbp-so-side img {
 		max-width: 100%;
 	}
+
+	#video_background {
+		display: none;
+	}
 }
 
