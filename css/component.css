@@ -1,10 +1,10 @@
 .cbp-so-scroller {
-	margin-top: 3em;
+	margin-top: 2em;
 	overflow: hidden;
 }
 
 .cbp-so-section {
-	margin-bottom: 4em;
+	margin-bottom: 2em;
 }
 
 /* Clear floats of children */

@@ -33,16 +33,18 @@ a:hover {
 	color: #0d4e78;
 }
 
-#title {
-	background: url(images/waxlimited.gif) center no-repeat;
+#signup_link {
+	background-color: #c0392b;
+	border: none;
+	color: #fff;
+	font-size: 2.5em;
+	font-family: "Lato";
+	font-weight: 300;
+	padding: 10px 20px 10px 20px;
 }
 
-#mc-embed-signup {
-	background-color: #3498db !important;
-}
-
-#mc-embed-signup:hover {
-	background-color: #2980b9 !important;
+#signup_link:hover {
+	background-color: #ccb320;
 }
 
 .container > header {
@@ -185,6 +187,54 @@ input[type="submit"].LR-sign-up-submit {
 	content: "\e004";
 }
 
+.btn {
+	border: 2px solid #c0392b;
+	font-family: "Lato";
+	font-size: 2em;
+	color: inherit;
+	background: none;
+	cursor: pointer;
+	padding: 15px 25px 15px 25px;
+	display: inline-block;
+	margin: 10px 10px;
+	letter-spacing: 1px;
+	font-weight: 500;
+	outline: none;
+	position: relative;
+}
+
+.btn:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.btn-1 {
+	border: 3px solid #c0392b;
+	color: #c0392b;
+}
+
+.btn-1b:after {
+	width: 100%;
+	height: 0;
+	top: 0;
+	left: 0;
+	background: #c0392b;
+}
+
+.btn-1b:hover,
+.btn-1b:active {
+	color: #fff;
+}
+
+.btn-1b:hover:after,
+.btn-1b:active:after {
+	height: 100%;
+}
+
 @media screen and (max-width: 55em) {
 
 	.container > header h1,
@@ -209,10 +259,6 @@ input[type="submit"].LR-sign-up-submit {
 #video_background {
 		display: none;
 	}
-
-body {
-	background-color: #333;
-}
 
 @media screen and (min-width: 62em) {
 
