@@ -166,19 +166,6 @@ a:hover {
 
 #video_background { position: absolute; bottom: 0px; right: 0px; min-width: 100%; min-height: 100%; width: auto; height: auto; z-index: -1000; overflow: hidden; }
 
-@-webkit-keyframes rotating {
-    from{
-        -webkit-transform: rotate(0deg);
-    }
-    to{
-        -webkit-transform: rotate(360deg);
-    }
-}
-
-.rotating {
-    -webkit-animation: rotating 2s linear infinite;
-}
-
 .container > header nav a:hover:after {
 	color: #47a3da;
 }
@@ -277,6 +264,19 @@ a:hover {
 	#video_background {
 		display: block;
 	}
+
+	@-webkit-keyframes rotating {
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+.rotating {
+    -webkit-animation: rotating 2s linear infinite;
+}
 
 @viewport{
     zoom: 1.0;
