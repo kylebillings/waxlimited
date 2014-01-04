@@ -21,7 +21,7 @@ body, html { font-size: 100%; padding: 0; margin: 0;}
 body {
     font-family: 'Lato', Calibri, Arial, sans-serif;
     color: #333;
-    background: #ecf0f1;
+    background: #fcfcfc;
 	/*background-image: url(../images/pattern.png);
 	position: fixed;
 	opacity: 0.8;
