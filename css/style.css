@@ -20,8 +20,8 @@ body, html { font-size: 100%; padding: 0; margin: 0;}
 
 body {
     font-family: 'Lato', Calibri, Arial, sans-serif;
-    color: #333;
-    background: #fafcfc;
+    color: #white;
+    background: #3498db;
 	/*background-image: url(../images/pattern.png);
 	position: fixed;
 	opacity: 0.8;
