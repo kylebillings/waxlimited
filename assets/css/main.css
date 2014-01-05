@@ -89,7 +89,7 @@ a:after {
 }
 
 .navbar-default {
-	background-color: #e74c3c;
+	background-color: #2980b9;
 	border-color: transparent;
 }
 
@@ -130,7 +130,7 @@ i {
         }
     }
 
-    .rotating {
+    .rotating:hover {
         -webkit-animation: rotating 2s linear infinite;
     }
 }
@@ -139,7 +139,7 @@ i {
 /* HeaderWrap */
 #headerwrap {
 	/* background: url(../img/bg01.jpg) no-repeat center top; */
-	background-color: #e74c3c;
+	background-color: #2980b9;
 	margin-top: -20px;
 	padding-top:200px;
 	background-attachment: relative;
