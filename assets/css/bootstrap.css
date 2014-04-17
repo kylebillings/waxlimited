@@ -814,9 +814,16 @@ pre code {
   }
 }
 
+#topvinyl {
+  display: none;
+}
+
 @media (min-width: 950px) {
   .container {
     width: 970px;
+  }
+  #topvinyl {
+    display: inline-block;
   }
 }
 
